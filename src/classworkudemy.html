@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header
+      class="flex w-[100vw] h-[10vh] items-center justify-around shadow-xl px-4"
+    >
+      <img
+        src="./udemyimgs/Udemy_logo.svg-removebg-preview.png"
+        alt=""
+        class="w-20 h-18"
+      />
+      <label for="category">
+        <!-- Categories -->
+      </label>
+      <select
+        name=""
+        id="category"
+        class="appearance-none hover:text-[purple] text-[14px]"
+      >
+        <option value="">Categories</option>
+        <option value="">Development</option>
+        <option value="">Business</option>
+        <option value="">Finance and Development</option>
+      </select>
+
+      <div class="w-2/5 border-gray-800 border-[1px] rounded-3xl p-2">
+        <!-- This div contains search icon together with input -->
+        <i class="bi bi-search ml-3"></i>
+        <input
+          type="text"
+          placeholder="Search for anything"
+          class="ml-3 outline-none border-none"
+        />
+      </div>
+
+      <a href="#" class="hover:text-[purple]">Udemy Business</a>
+
+      <a href="#" class="hover:text-[purple]">Teach on Udemy</a>
+
+      <i class="bi bi-cart"></i>
+
+      <button class="border-[1px] border-gray-700 px-4 py-1">
+        <!-- login button -->
+        <a href="">Log In</a>
+      </button>
+
+      <button
+        class="border-[1px] border-gray-700 px-4 py-2 text-[white] bg-black"
+      >
+        <!-- Sign Up button -->
+        <a href="">Sign up</a>
+      </button>
+
+      <div class="border-[1px] border-gray-700 px-4 py-3">
+        <!-- this div contains globe icon -->
+        <i class="bi bi-globe"></i>
+      </div>
+    </header>
+    <section>
+      <div
+        class="w-[100vw] h-[70vh] flex border-[1px] border-gray-300 bg-[url('/src/udemyimgs/fallback_banner_image_udlite.jpg')] bg-cover"
+      >
+        <div class="w-2/6 h-2/6 border-white border-[1px]">
+          <h1>Jump into learning for less</h1>
+          <p>
+            If you're new to Udemy, we've got good news: For a limited time,
+            courses start at just N7,900 for new learners! Shop now.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
